@@ -1,0 +1,335 @@
+SNH INC
+Mortage applications, credit reporting tools, valuations, background screenings, and affordable energy
+Brands: NNational Credit Center, PeopleFacts, SettlementOne Credit, SettlementOne Valuation, Sperian Energy
+Jecin Sacket-Las Vegas
+
+ATLANTA
+Meetups for .NET developers
+Xamarin Evolve conference there
+
+MVC
+Controller: can send commands to the model to update the model’s state.
+Model: notifies its associated views and controllers when there has been a change in its state. This notification allows the views to produce updated output, and the controllers to change the available set of commands.
+View: requests information from the model that it uses to generate an output representation to the user.
+
+KnockOut JS
+-Simplifies dynamic JavaScript UIs
+-Model-View View Model Pattern
+
+AngularJS
+-extend HTML vocabulary for your application
+
+WEB API
+A web API is the application programming interface (API) for both the web server and the web browser.
+Server-Side Web API: programmatic interface to define request-response message system, typically in JSON or XML, which is exposed via the web
+Client-Side Web API: programmatic interface to extend functionality within a web browser or other HTTP client. Originally these were most commonly in the form of native plug-in architectures however most newer ones targeted JavaScript bindings.
+
+REST
+Software architecture style consisting of guidelines and best practices for creating scalable web services.
+Set of constraints applied to the design of components
+Client server
+A uniform interface separates clients from servers
+Stateless
+Cacheable
+Layered system
+Uniform interface
+Code-on-demand
+JAVA VS C#
+
+Similarities Between C# and Java
+Strongly-typed
+Class-based Object-oriented
+Curly-brace languages like C/C++
+
+Advantages of C#
+•	Arrays can be resized while preserving existing values with using the Array.Resize() static array method.
+•	C# supports multidimensional arrays (rectangular arrays).
+•	C# allows partial classes. A class definition can be split across several source files using a feature called partial classes.
+•	C# includes operator overloading.
+•	C# includes indexers that can be considered a special case of operator overloading or parameterized get/set properties.
+•	C# has a built-in decimal type, which has a higher precision than the double type.
+•	C# allows for in-language querying capabilities with LINQ.
+•	C# allows pointers (in an explicit “unsafe” mode, not by default).
+•	C# supports unsigned integers in addition to signed integers.
+•	C# offers a type for working with decimal numbers.
+
+C# KEYWORDS
+
+abstract
+The abstract modifier indicates that the thing being modified has a missing or an incomplete implementation.
+
+base
+The base keyword is used to access members of the base class from within a derived class:
+Call a method on the base class that has been overridden by another method.
+Specify which base-class constructor should be called when writing instances of the derived class.
+A base class access is permitted only in a constructor, an instance method, or an instance property accessor.
+It is an error to use the base keyword from within a static method.
+
+bool
+The bool keyword is an alias of System.Boolean. It is used to declare variables to store the boolean values, true and false.
+
+
+
+delegate
+A delegate is a reference type that can be used to encapsulate a named or an anonymous method. Delegates are similar to function pointers in C++; however,  delegates are type-safe and secure.
+
+dynamic
+The dynamic type enables the operations in which it occurs to bypass compile-time checking. Instead, these compilations are resolved at run-time. The dynamic type simplifies access to COM APIs, dynamic APIs, and the HTML DOM.
+
+explicit
+The explicit jeyword declares a user-designed type conversion operator that must be invoked with a cast.
+
+get
+The get keyword defines an accessor method in a property or indexer that retrieves the value of the property or indexer element.
+
+goto
+The goto statement transfers the program control directly to a labeled statement.
+A common use of goto is to transfer control to a specific switch-case label or the default label in a switch statement.
+The goto statement is also useful to get out of deeply nested loops.
+
+namespace
+The namespace keyword is used to declare a scope that contains a set of related objects. You can use a namespace to organize code elements and to create globally unique types.
+
+sealed
+When applied to a class, the sealed modifier prevents other classes from inheriting from it.
+You can also use the sealed modifier on a method or property that overrides a virtual method or property in a base class. This enables you to allow classes to derive from your class and prevent them from overriding specific virtual methods or properties.
+
+stackalloc
+The stackalloc keyword is used in an unsafe code context to allocate a block of memory on the stack. This keyword is valid only in local variable initializers.
+
+struct
+A struct type is a value type that is typically used to encapsulate small groups of related variables such as the coordinates of a rectangle or the characteristics of an item in an inventory.
+
+unchecked
+The unchecked keyword is used to suppress overflow-checking for integral-type arithmetic operations and conversions. 
+In an unchecked context, if an expression produces a value that is outside the range of the destination type, the overflow is not flagged.
+
+unsafe
+The unsafe keyword denotes an unsafe context, which is required for any operation involving pointers.
+
+virtual
+The virtual keyword is used to modify a method, property, index, or event declaration and allow for it to be overridden in a derived class.
+
+volatile
+The volatile keyword indicates that a field may be modified by multiple threads that are executing at the same time. Fields that are declared volatile are not subject to compiler optimizations that assume access by a single thread. This ensures that the most up-to-date value is present in the field at all times.
+
+
+C# INTERVIEW QUESTIONS
+
+What is a class?
+A class is a generic definition of what an object is. A class describes all the attributes of the object, as well as the methods that implement the behavior of the member object. In other words, class is the template of an object.
+
+What is an object?
+An object is an instance of a class. It contains real values instead of variables.
+
+What are static members in C#?
+If an attribute’s value had to be the same across all the instances of the same classes, the static keyword is used.
+
+What is inheritance in C#?
+Inheritance is a way to reuse code of existing objects. In inheritance, there will be two classes – bare class and derived classes. A class can inherit attributes and methods from an existing class called base class or existing class. The class which inherits the base class is called a derived class or a child class.
+
+Can multiple inheritance be implemented in C#?
+In C#, derived classes can inherit from one base class only. If you want to inherit from multiple classes, use interface.
+
+What is polymorphism in C#?
+The ability of a programming language to possess objects in different ways depending on their data type or class is known as polymorphism. There are two types of polymorphism
+Compile time polymorphism. Best example is overloading
+Runtime Polymorphism. Best example is overriding.
+
+What are properties in C#?
+Properties are a type of class member, that are exposed to the outside world as Pair Methods.
+
+What is abstract class in C#?
+If we don’t want a class to be instantiated, define the class as abstract. An abstract class can have abstract and non-abstract classes. If a method is defined as abstract, it must be implemented in the derived class.
+
+What is a destructor in C#?
+Destructor is a special method that gets invoked/called automatically whenever an object of a given class gets destroyed. Main idea behind using destructor is to free the memory used by the object.
+
+What is overloading in C#?
+When methods are created with the same name, but different signature it is called overloading. For example, WriteLine method in console class is an example of overloading.
+
+What is constructor overloading in C#.NET?
+In constructor overloading, n number of constructors can be created for the same class. But the signatures of each constructor should vary.
+
+What is function overloading in C#.NET?
+In function overloading, n number of functions can be created for the same class. But the signatures of each function should vary.
+
+
+HTML
+
+What is a hypertext link?
+A hypertext link is a special tag that links one page to another page or resource. If you click the link, the browser jumps to the link’s destination.
+
+How do you create frames? What is a frameset?
+Frames allow an author to divide a browser window into multiple (rectangular) regions. Multiple documents can be displayed in a single window, each within its own frame. Graphical browsers allow these frames to be scrolled independently of each other, and links can update the document displayed in one frame without affecting the others.
+You can’t just “add frames” to an existing document. Rather, you must create a frameset document that defines a particular combination of frames, and then display your content documents inside those frames. The frameset document should also include alternative non-framed content in a NONFRAMES element.
+
+What is a DOCTYPE?
+According to HTML standards,  each HTML document begins with a DOCTYPE declaration that specifies which version of HTML the document uses.
+Many browsers use the document’s DOCTYPE declaration to determine whether to use a stricter, more standards-oriented layout mode,  or to use a “quirks” layout mode that attempts to emulate older, buggy browsers.
+
+CSS
+
+What are the different ways to integrate CSS into a web page?
+There are three ways to integrate CSS into a web page
+Inline: HTML elements may have CSS applies to them via the STYLE attribute.
+Embedded: By placing the code in a STYLE element within the HEAD element.
+Link/Imported: Plave the CSS in an external file and link it via the link element.
+
+What is a CSS selector?
+A CSS selector is a string that identifies the elements to which a particular declaration or set of declarations will apply.
+It can also be referred to as a link between the HTML document and the style sheet. It is the equivalent of HTML elements.
+A{text-indent: 12pt} (The selector is A, which is called type selector)
+
+What is the use of CSS sprites?
+A web page with a large number of images takes a longer time to load.  This is because each image separately sends out an HTTP request.
+The concept of CSS sprite helps in reducing the load time for a web page for a web page by combining various smaller images into one image. This reduces the numbers of HTTP requests and hence the loading time.
+
+JAVASCRIPT
+
+Explain closure in JavaScript.
+In JavaScript, it’s possible to have functions within functions. Closure refers to the system by which inner functions have access to the variables used in the outer function, even after the outer function has executed completely.
+
+What is the HTML DOM?
+Once a web page loads, your browser generates something called a DOM, or Document Object Model, of the page. The DOM acts as a programming interface for HTML, which defines HTML properties, events, and methods. It also refers to HTML elements as objects.
+JavaScript relies on this DOM to alter the elements and attributes of a page, and create the dynamic websites it’s known for.
+
+What is event bubbling, and why is it beneficial to use?
+Event bubbling transfers events contained within the child node to the parent node. It’s a beneficial method because of its speediness, as it only requires the code to traverse the DOM tree one time.
+
+Explain the difference of pop-up boxes you can create in JavaScript.
+There are three main types of pop-up boxes in JavaScript: alert boxes, confirm boxes, and prompt boxes.
+Alert Box: Used to confirm that a user understands a vital piece of information before proceeding. The user must click OK to exit the box.
+window.alert(“Alert text here”);
+
+Confirm box: Used when user verification is required. It will return TRUE if the user clicks OK, and FALSE if the user clicks CANCEL.
+window.confirm(“Confirm text here.”);
+
+Prompt Box: Used if the user needs to input something before proceeding. When the user inputs a value and presses OK, the prompt box will return the input value. If the user clicks CANCEL without inputting a value, the input value will return as null.
+Window.prompt(“Prompt box text”, “Defaul value”);
+
+Explain how timers works in JavaScript.
+With a timer, coders can set their code to execute at specific times, either once or at repeat intervals. There are three functions involved to set a timer in JavaScript:
+setTimeout(function, millisecond): Creates a timer that will call a function after a designated amount of milliseconds. This also generates an id value so the coder can access it another time.
+setInterval(function, milliseconds): Acts the same way as the setTimer function, only it repeats itself based on the number of milliseconds given.
+clearInterval(id): Used to stop a timer.
+
+What does the isNaN() function do?
+The isNaN() function is used to determine whether a value is not a number, or an illegal number. If the argument is not a number, the isNaN() function will return true.
+
+What kind of looping functions does JavaScript support?
+JavaScript supports for loops, while loops, and do-while loops, but not foreach loops.
+
+JQUERY
+
+
+ANGULARJS
+
+LINQ
+
+What is LINQ?
+LINQ is a programming model that is the composition of general-purpose standard query operators that allow you to work with data, regardless of the data source in any .NET based programming language.
+
+What are LINQ query expressions?
+A LINQ query, also known as a query expression, consists of a combination of query classes that identify the data sources for the query. It includes instructions for sorting, filtering, grouping, or joining to apply the source data. The LINQ query expressions syntax is similar to the SQL syntax. It specifies what information should be retrieved from the data source.
+
+Write the basic steps to execute a LINQ query.
+The following are the three basic steps to execute a LINQ query:
+Obtain the data source (The data source can be either a SQL database or an XML file)
+Create a query
+Execute the query
+
+Write the basic syntax of a LINQ query in C#.
+In C#, the basic syntax of a LINQ query starts with the from clause and ends with the select or group by clause. In addition, you can use the where, orderby, and Orderby descending clauses to perform additional functions, such as filtering data and generating the data in a specific order.
+
+In which statement is the LINQ query executed?
+A LINQ query is executed in the foreach statement in C#.
+
+What is a Lamba expression?
+A lambda expression is nothing but an anonymous function, can contain expressions and statements. Lambda expressions can use delegates or expression tree types. Lambda expressions use the “goes to” (=>) operator.
+
+Why does the SELECT clause come after the FROM clause in LINQ?
+The reason is, LINQ is used with C#, which requires all the variables to be declared first. The from clause of LINQ query just defines the range or conditions to select records.
+
+WINDOW WORKFLOW FOUNDATION
+
+What is the Windows Workflow Foundation?
+Windows Workflow Foundation (WF) is a technology that was first introduced in the .NET framework 3.0. WF consists of a programming model, a workflow runtime engine, workflow designer, a rules engine, and tools to quickly build workflow-based applications on Windows. WF facilitates the separation between the business process code and the actual implementation code.
+
+What is a workflow?
+A workflow is a collection of actions (called activities) that presents the model of a process. A workflow provides the way to describe the order of execution of a long running process and relationships between different activities. Multiple instances of a workflow may be active at any given moment in an application.
+What are the different types of workflow in WF?
+In WF 4.0, the following two types of workflows are used:
+Flowchart workflows – helps you to create workflows using the common flowchart elements. In WF, the Flowchart activity is generally used to implement a non-sequential workflow and occasionally it implements sequential workflows in the case FlowDecision nodes are not used. The flowchart activity contains a collection of flow nodes, which inherit from the FlowNode class. The following types of nodes or elements can be a part of a flowchart:
+  FlowStep – Executes activities of a flowchart in a sequence.
+  FlowDecision – Shows the execution on the basis of a Boolean condition. It is    
+  similar to the If construct.
+  FlowSwitch – Shows the execution on the basis of an exclusive switch. It is similar 
+  to the Switch construct.
+Procedural workflows – Helps you to create workflows using basic and sequential execution standards. In WF, procedural workflows usr flow control constructs, such as While, Switch, ForEach, and If, to execute activities. These flow control constructs are similar to those found in procedural languages. Procedural workflows can also contain other flow control activities, such as Flowchart and sequence.
+
+What are the components of WF 4.0?
+WF consists of several components that work together to create desired workflow. The components of WF are given as follows:
+Workflows and activities
+Base activity library
+Custom activities
+Host process
+Activity data model
+Runtime engine 
+Runtime services
+
+What is a base activity library?
+The base activity library is a collection of activities used to create workflows.
+
+
+WINDOWS COMMUNICATION FOUNDATION (WCF)
+The Windows Communication Foundation (previously known as Indigo) is a runtime and set of APIs in the .NET framework for building connected, service-oriented applications.
+WCF is a tool often used to implement and deploy a service-oriented architecture.
+It is designed using service-oriented architecture principles to support distributed computing where services have remote consumers.
+
+CLOUDFORGE VERSION CONTROL
+$2/user/month standard version
+$10/user/month professional
+Centralized version control system
+Maintain current and historical versions of files such as source code and documentation
+Define epics, establish release and sprint plans, estimate time, prioritize and manage your backlogs across your Agile Projects
+
+AZURE
+Installing the Azure SDK for Visual Studio.
+Create a web app. Visual Studio will automatically create the Azure web app that you’ll deploy your project too later.
+Monitor and manage the web app in the web app portal
+
+AMAZON WEB SERVICES
+Clients: Adobe, FDA, PBS, Spotify, Pinterest, Kellogg’s
+Free Tier lasts 12 months
+DynamoDB - NoSQL database with seamless scalability
+Key Management Services – AWS Key Management Service is a managed service that provides easy encryption with administrative controls.
+Lambda – Compute service that runs your code in response to events and automatically manages the compute resources.
+
+DATA MODELING
+
+What is cardinality?
+Thinking mathematically, it is the number of elements in a set. Thinking in the database world, cardinality has to do with the counts in a relationship, one-to-one, one-to-many, or many-to-many.
+
+MICROSOFT SQL SERVER
+
+What is the difference between a clustered and a non-clustered index?
+A clustered index is a special type of index that reorders the way records in the table are physically stored. Therefore tables can only have one clustered index. The leaf nodes of a clustered index contain the data pages.
+A non clustered index is a special type of index in which the logical order of the index does not match the physical stored order of the rows on disk. The leaf node of a non-clustered index does not consist of the data pages. Indtead, the leaf nodes contain index rows.
+
+What are the different index configurations a table can have?
+A table can have one of the following index configurations:
+No indexes
+A clustered index
+A clustered index and many nonclustered indexes
+A nonclustered index
+Many nonclustered indexes
+
+What is OLTP (Online Transaction Processing)?
+In OLTP – online transaction processing systems relational database design use the discipline of data modeling and generally follow the Codd rules of data normalization in order to ensure absolute data integrity. Using these rules, complex information is broken down into its most simple structures (a table) where all of the individual atomic level elements relate to each other and satisfy normalization rules.
+
+What is the difference between a primary key and a unique key?
+Both primary key and unique key enforces uniqueness of the column on which they are defined.  But by default primary key creates a clustered index on the column, where unique create a clustered index by default. Another major difference is that, primary key doesn’t allow NULLs, but unique key allows one NULL only.
+
+What is log shipping?
+Log shipping is the process of automating the backup of the database and transaction log files on a production SQL server, and then restoring them onto a standby server. Enterprise Editions only support log shipping. In log shipping the transactional log file from one server is automatically updated into the backup database on the other server. If one server fails, the other server will have the same db and can be used as a Disaster Recovery Plan. The key feature of log shipping is that it will automatically backup transation logs throughout the day and restore them on the standby server at defined interval.
